@@ -25,6 +25,19 @@ click on the left view> at the far right you will see tool bax> below the tool b
 
 > Layer stacking  parameters dialogue box pop-up
 
+click import files > select all the 1978 bands in the select input file(i.e., band 4, band 5, and band 6)
+
+> Hold the Control key and select the three bands and click ok
+
+choose your output filename as as 1978 stack and click ok.
+
+
+Repeat the same steps you did for step 7 for the 1979 Landsat image(i.e., band 4, band 5, and band 6)
+
+Choose output filename as 1979 stack and click ok
+
+
+
 
 
 
