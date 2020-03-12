@@ -37,6 +37,9 @@ Repeat the same steps you did for step 7 for the 1979 Landsat image(i.e., band 4
 Choose output filename as 1979 stack and click ok
 
 
+ go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile
+
+
 
 
 
