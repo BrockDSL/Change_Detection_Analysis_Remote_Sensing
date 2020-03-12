@@ -1,13 +1,13 @@
 ![DSL Logo][dsllogo]
 
 
-# Title
+# Change Detection Analysis
 Description of contents
 
-### First header
+### Procedures
 Content
 
-### Second Header
+### Conclusion
 
 Content
 
