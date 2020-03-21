@@ -21,7 +21,7 @@ Also select the right view and repeat the same process you did for step three. S
 ** Layer Stacking (Joining of bands)
 For this step  we will like to join the three bands  of each view to get an image for each view.
 
-click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click layer stacking
+click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click Layer stacking
 
 > Layer stacking  parameters dialogue box pop-up
 
@@ -39,6 +39,9 @@ Choose output filename as 1979 stack and click ok
 
  go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile
 
+
+Classification
+In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
 
 
