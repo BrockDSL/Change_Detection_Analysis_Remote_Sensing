@@ -61,6 +61,26 @@ Repeat the same classification process for stack 1979 and name it as unsupervise
 
 Editing of class names and class colors
 
+right click on the K-means classes on the left view and select edit class names and colors
+
+edit class names and colors dialogue box pop-up
+
+move to class names> click on class1 and type the name fishing activity as the name in the edit box.
+with the tables as guide repeat the same renaming process for the other classes.
+
+move to class color> click on the class name and change the color by double clicking on the color beside the class name(use the above table as a guide).
+follow the same step to change the colors of the remaining classes using the table as a guide
+
+click ok when you are done with the editing
+
+
+
+repeat this step for the unsupervised 1979 image on the right view
+
+
+
+* Change Detection Analysis*
+
 
 
 
