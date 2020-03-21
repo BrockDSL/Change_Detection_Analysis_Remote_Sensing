@@ -18,7 +18,7 @@ click on the left view> Go to file> go to the location of the downloaded Remote 
 
 Also select the right view and repeat the same process you did for step three. Select band 4, band 5, and band 6 of your 1979 landsat data and click open.
 
-** Layer Stacking (Joining of bands)**
+**Layer Stacking (Joining of bands)**
 
 For this step  we will like to join the three bands  of each view to get an image for each view.
 
