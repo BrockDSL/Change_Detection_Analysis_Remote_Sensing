@@ -18,7 +18,8 @@ click on the left view> Go to file> go to the location of the downloaded Remote 
 
 Also select the right view and repeat the same process you did for step three. Select band 4, band 5, and band 6 of your 1979 landsat data and click open.
 
-** Layer Stacking (Joining of bands)
+** Layer Stacking (Joining of bands)**
+
 For this step  we will like to join the three bands  of each view to get an image for each view.
 
 click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click Layer stacking
@@ -40,7 +41,8 @@ Choose output filename as 1979 stack and click ok
  go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile
 
 
-Classification
+**Classification**
+
 In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
 go to the tool box and expand the classification folder> expand unsupervised classification.
@@ -79,7 +81,7 @@ repeat this step for the unsupervised 1979 image on the right view
 
 
 
-*Change Detection Analysis*
+**Change Detection Analysis**
 
 
 
