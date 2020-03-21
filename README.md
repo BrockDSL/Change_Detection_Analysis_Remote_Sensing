@@ -79,7 +79,7 @@ repeat this step for the unsupervised 1979 image on the right view
 
 
 
-* Change Detection Analysis*
+*Change Detection Analysis*
 
 
 
