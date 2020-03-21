@@ -1,7 +1,7 @@
 ![DSL Logo][dsllogo]
 
 
-#  Niagara's Land Cover Change Analysis: An introduction to Change Dtection Analysis
+#  Niagara's Land Cover Change Analysis: An introduction to Change Detection Analysis
 Description of contents
 
 ### Procedures
