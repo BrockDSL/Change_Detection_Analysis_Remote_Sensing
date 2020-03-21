@@ -43,6 +43,21 @@ Choose output filename as 1979 stack and click ok
 Classification
 In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
+go to the tool box and expand the classification folder> expand unsupervised classification.
+
+>Note:unsupervised classification is where outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
+
+double click K-means
+
+select 1978 stack in the select input file of the classification input file dialogue box.
+
+click ok
+
+K-means parameter dialogue box pop-up
+
+select number of classess as 4> choose output filename as unsupervised 1978 > click ok.
+
+Repeat the same classification process for stack 1979 and name it as unsupervised 1979.
 
 
 
