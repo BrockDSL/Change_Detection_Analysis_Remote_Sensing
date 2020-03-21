@@ -59,6 +59,8 @@ select number of classess as 4> choose output filename as unsupervised 1978 > cl
 
 Repeat the same classification process for stack 1979 and name it as unsupervised 1979.
 
+Editing of class names and class colors
+
 
 
 
