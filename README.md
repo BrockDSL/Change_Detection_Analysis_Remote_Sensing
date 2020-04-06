@@ -6,7 +6,7 @@ Description of contents
 
 ### Procedures
 Content
-Open Envi 5.5. Sofware
+Open Envi 5.5.3 Sofware
 
 Click the 'view button' on the menu bar and select Two vertical views 
 
@@ -14,9 +14,9 @@ Click the 'view button' on the menu bar and select Two vertical views
 > NB: this operation will generate a left view and a right view on the visualization area 
 
 
-Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 4, band 5, and band 6 of your 1978 landsat data > click open
+Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 3, band 4, and band 5 of your 1987 landsat data > click open
 
-Also select the right view and repeat the same process you did for step three. Select band 4, band 5, and band 6 of your 1979 landsat data and click open.
+Also select the right view and repeat the same process you did for step three. Select band 3, band 4, and band 5 of your 2002 landsat data and click open.
 
 **Layer Stacking (Joining of bands)**
 
