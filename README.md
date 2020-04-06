@@ -86,7 +86,7 @@ Click ok
 
 K-means parameter dialogue box pop-up
 
-Select number of classess as 4> choose output filename as unsupervised 1987 > click ok.
+Select number of classess as 3> choose output filename as unsupervised 1987 > click ok.
 
 Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
 
