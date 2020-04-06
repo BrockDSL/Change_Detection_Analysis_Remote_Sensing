@@ -51,6 +51,7 @@ Select the right view and repeat the above steps to add the municipal boundary s
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
 
 **Subsetting  Stack Data from Region of Interest(ROI)**
+
 Select the left view
 Go to the search tool box and search my typing subset in the box> Double click Data from ROIs
 
