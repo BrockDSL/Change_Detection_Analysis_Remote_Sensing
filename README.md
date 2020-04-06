@@ -9,6 +9,7 @@ Content
 Open Envi 5.5.3 Sofware
 
 Click the 'view button' on the menu bar and select Two vertical views 
+Altenately hold Alt + 2.
 
 
 > NB: this operation will generate a left view and a right view on the visualization area 
@@ -16,29 +17,52 @@ Click the 'view button' on the menu bar and select Two vertical views
 
 Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 3, band 4, and band 5 of your 1987 landsat data > click open
 
+Alternately you can hold Ctrl +O
+
 Also select the right view and repeat the same process you did for step three. Select band 3, band 4, and band 5 of your 2002 landsat data and click open.
 
 **Layer Stacking (Joining of bands)**
 
 For this step  we will like to join the three bands  of each view to get an image for each view.
 
-Click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click Layer stacking
+Click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click Build Layer Stack.
 
 > Layer stacking  parameters dialogue box pop-up
 
-Click import files > select all the 1978 bands in the select input file(i.e., band 4, band 5, and band 6)
+Click on the three dot in the box at the right side of the input raster box > select all the 1987 bands in the select input file(i.e., band 3, band 4, and band 5)
 
-> Hold the Control key and select the three bands and click ok
+> Hold the Control key and select the three bands and click ok.
 
-Choose your output filename as as 1978 stack and click ok.
+Choose your output filename as as 1987 Stack and click ok.
 
 
-Repeat the same steps you did for step 7 for the 1979 Landsat image(i.e., band 4, band 5, and band 6)
+Repeat the same steps you did for step 7 for the 2002 Landsat image(i.e., band 3, band 4, and band 5)
 
-Choose output filename as 1979 stack and click ok
+Choose output filename as 2002 Stack and click ok.
 
 
 Go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile
+select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose municipal boundary (1) folder> select municipal boundary.shp > click open.
+
+Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+
+Select the right view and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
+
+Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+
+**Subsetting  Stack Data from Region of Interest(ROI)**
+Select the left view
+Go to the search tool box and search my typing subset in the box> Double click Data from ROIs
+
+Select Input File to Subset Via ROI dialogue box pops-up> For the select input file> Select 1987 Stack > Click ok.
+
+Spatial Subset Via ROI parameters dialogue box pops-up> Select the municipal boundary.shp (the one at the bottom). 
+Choose filename and Save as 1987 Subset> Click open > Cick ok.
+
+
+With the exception of 1987 Subset, uncheck all other layers in the left view
+
+Repeat the same process of subsetting data for the 2002 Stack image in the right view.
 
 
 **Classification**
