@@ -56,14 +56,18 @@ Go to the search tool box and search my typing subset in the box> Double click D
 
 Select Input File to Subset Via ROI dialogue box pops-up> For the select input file> Select 1987 Stack > Click ok.
 
-Spatial Subset Via ROI parameters dialogue box pops-up> Select the municipal boundary.shp (the one at the bottom). 
+Spatial Subset Via ROI parameters dialogue box pops-up> Select the municipal boundary.shp (i.e., the one at the bottom). 
 Choose filename and Save as 1987 Subset> Click open > Cick ok.
 
 
-With the exception of 1987 Subset, uncheck all other layers in the left view
+With the exception of 1987 Subset, uncheck all other layers in the left view in the layer manager.
 
 Repeat the same process of subsetting data for the 2002 Stack image in the right view.
+Select the right view> for the select input file> Choose 2002 Stack and Click ok.
+For the Spatial Subset Via ROI parameters  choose the municipal boundary.shp (i.e., the one at the top)
+Choose 2002 Subset as the output file name> Click ok.
 
+Also, with the exception of 2002 Subset, uncheck all other layers in the right view in the the layer manager.
 
 **Classification**
 
@@ -75,15 +79,15 @@ Go to the tool box and expand the classification folder> expand unsupervised cla
 
 Double click K-means
 
-Select 1978 stack in the select input file of the classification input file dialogue box.
+Select 1987 stack in the select input file of the classification input file dialogue box.
 
 Click ok
 
 K-means parameter dialogue box pop-up
 
-Select number of classess as 4> choose output filename as unsupervised 1978 > click ok.
+Select number of classess as 4> choose output filename as unsupervised 1987 > click ok.
 
-Repeat the same classification process for stack 1979 and name it as unsupervised 1979.
+Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
 
 Editing of class names and class colors
 
@@ -111,9 +115,9 @@ Go to the tool box > expand the change detection folder
 
 Double click change detection statisrics
 
-Select unsupervised 1978(i.e.' K-means 1978 stack) as the 'initial state' image and click ok.
+Select unsupervised 1987(i.e.' K-means 1987 stack) as the 'initial state' image and click ok.
 
-Select unsupervised 1979 (i.e., K-means 1979) as the 'final stage' image and click ok.
+Select unsupervised 2002(i.e., K-means 2002) as the 'final stage' image and click ok.
 
 
 Choose your output file name location  > type change detection statistics and click ok.
