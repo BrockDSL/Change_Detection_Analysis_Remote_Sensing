@@ -8,7 +8,7 @@ Description of contents
 Content
 
 Download the Change Detection compressed folder from the GitHub link below:
-https://github.com/pdwomoh/Philip-Dwomoh-DSL-Project
+https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
 
 Locate the downloaded file on your computer. Right-click the file and extract it to a location where you can easily find it, such as your Documents folder.
 
