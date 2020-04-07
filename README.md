@@ -12,7 +12,7 @@ https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
 
 Locate the downloaded file on your computer. Right-click the file and extract it to a location where you can easily find it, such as your Documents folder.
 
-Open Envi 5.5.3 Sofware
+Open Envi 5.5.3 Software
 
 Click the 'view button' on the menu bar and select Two vertical views 
 Altenately hold Alt + 2.
