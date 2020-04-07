@@ -5,7 +5,6 @@
 Description of contents
 
 ### Procedures
-Content
 
 Download the Change Detection compressed folder from the GitHub link below:
 https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
@@ -23,7 +22,7 @@ Altenately hold Alt + 2.
 
 Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 3, band 4, and band 5 of your 1987 landsat data > click open
 
-Alternately you can hold Ctrl +O
+Alternately you can hold Ctrl + O
 
 Also select the right view and repeat the same process you did for step three. Select band 3, band 4, and band 5 of your 2002 landsat data and click open.
 
@@ -47,7 +46,8 @@ Repeat the same steps you did for step 7 for the 2002 Landsat image(i.e., band 3
 Choose output filename as 2002 Stack and click ok.
 
 
-Go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile
+Go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile.
+
 select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose municipal boundary (1) folder> select municipal boundary.shp > click open.
 
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
@@ -69,18 +69,23 @@ Choose filename and Save as 1987 Subset> Click open > Cick ok.
 
 With the exception of 1987 Subset, uncheck all other layers in the left view in the layer manager.
 
+
 Repeat the same process of subsetting data for the 2002 Stack image in the right view.
+
 Select the right view> for the select input file> Choose 2002 Stack and Click ok.
+
 For the Spatial Subset Via ROI parameters  choose the municipal boundary.shp (i.e., the one at the top)
 Choose 2002 Subset as the output file name> Click ok.
 
 Also, with the exception of 2002 Subset, uncheck all other layers in the right view in the the layer manager.
+
 
 **Classification**
 
 In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
 Click on the left view> Go to the tool box and expand the classification folder> expand unsupervised classification.
+
 
 >Note:Unsupervised classification is where outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
 
@@ -92,9 +97,10 @@ Click ok
 
 K-means parameter dialogue box pop-up
 
-Select number of classess as 3> choose output filename as unsupervised 1987 > click ok.
+Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
 
 Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
+
 
 *Editing of class names and class colors*
 Class Name |	Class color | New Class Name  | New Class Color
@@ -111,6 +117,7 @@ Move to class names> click on class1 and type the name Waterbody as the name in 
 Having the above table as guide, repeat the same process for the other classes.
 
 Move to class color> click on the class name and change the color by double clicking on the color beside the class name(use the above table as a guide).
+
 Follow the same step to change the colors of the remaining classes using the table as a guide
 
 Click ok when you are done with the editing
