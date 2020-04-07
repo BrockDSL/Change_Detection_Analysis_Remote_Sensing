@@ -74,7 +74,7 @@ Also, with the exception of 2002 Subset, uncheck all other layers in the right v
 
 In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
-Go to the tool box and expand the classification folder> expand unsupervised classification.
+Click on the left view> Go to the tool box and expand the classification folder> expand unsupervised classification.
 
 >Note:Unsupervised classification is where outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
 
@@ -90,7 +90,12 @@ Select number of classess as 3> choose output filename as unsupervised 1987 > cl
 
 Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
 
-Editing of class names and class colors
+*Editing of class names and class colors*
+Class Name |	Class color | New Class Name  | New Class Color
+--- | --- | --- | ---
+Class 1 |	WaterBody |  |
+Class 2 |	Municipality |  |
+Class 3 |	Number of Supermarkets |  |
 
 Right click on the K-means classes on the left view and select edit class names and colors
 
