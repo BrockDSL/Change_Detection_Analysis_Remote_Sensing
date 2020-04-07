@@ -93,9 +93,9 @@ Repeat the same classification process for stack 2002 and name it as unsupervise
 *Editing of class names and class colors*
 Class Name |	Class color | New Class Name  | New Class Color
 --- | --- | --- | ---
-Class 1 |	WaterBody |  |
-Class 2 |	Municipality |  |
-Class 3 |	Number of Supermarkets |  |
+Class 1 |	WaterBody | Red  | Blue
+Class 2 |	Human settlement | Green  |Yellow
+Class 3 |	Bareland | Blue  | Green
 
 Right click on the K-means classes on the left view and select edit class names and colors
 
