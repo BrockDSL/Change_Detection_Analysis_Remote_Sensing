@@ -99,16 +99,16 @@ Repeat the same classification process for stack 2002 and name it as unsupervise
 *Editing of class names and class colors*
 Class Name |	Class color | New Class Name  | New Class Color
 --- | --- | --- | ---
-Class 1 |	Red | WaterBody | Blue
+Class 1 |	Red | Waterbody | Blue
 Class 2 |	Green | Human settlement |Yellow
 Class 3 |	Blue | Bareland | Green
 
-Right click on the K-means classes on the left view and select edit class names and colors
+Go to the layer manager pane and Right click on the Classes[Below the K-Means (1987 subset)] on the left view and select edit class names and colors
 
 Edit class names and colors dialogue box pop-up
 
-Move to class names> click on class1 and type the name fishing activity as the name in the edit box.
-with the tables as guide repeat the same renaming process for the other classes.
+Move to class names> click on class1 and type the name Waterbody as the name in the edit box.
+Having the above table as guide, repeat the same process for the other classes.
 
 Move to class color> click on the class name and change the color by double clicking on the color beside the class name(use the above table as a guide).
 Follow the same step to change the colors of the remaining classes using the table as a guide
@@ -117,7 +117,7 @@ Click ok when you are done with the editing
 
 
 
-Repeat this step for the unsupervised 1979 image on the right view
+Repeat this step for the unsupervised 2002 image on the right view
 
 
 
