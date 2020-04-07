@@ -125,14 +125,17 @@ Repeat this step for the unsupervised 2002 image on the right view
 
 Go to the tool box > expand the change detection folder
 
-Double click change detection statisrics
+Double click change detection statistics
 
 Select unsupervised 1987(i.e.' K-means 1987 stack) as the 'initial state' image and click ok.
 
 Select unsupervised 2002(i.e., K-means 2002) as the 'final stage' image and click ok.
 
+Definine Equivalent parameter dialogue box pops-up> select unclassified for both the initial state classess and the final state classes> click ok.
 
-Choose your output file name location  > type change detection statistics and click ok.
+Change Detection Statistics Output dialogue pops-up> Choose your output filename and save as Change Detection Statistics> click ok.
+
+
 Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
 
 
