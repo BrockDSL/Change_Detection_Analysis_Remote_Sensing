@@ -21,6 +21,9 @@ Click the 'view button' on the menu bar and select Two vertical views
 Altenately hold Alt + 2.
 
 
+![Two Vertical Views][logo2]
+
+
 > NB: this operation will generate a left view and a right view on the visualization area 
 
 
@@ -171,4 +174,5 @@ Content
 
 [dsllogo]: dsl_logo.png
 [logo1]: logo1.PNG
+[logo2]: logo2.PNG
 
