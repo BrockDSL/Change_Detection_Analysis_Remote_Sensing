@@ -13,7 +13,9 @@ Locate the downloaded file on your computer. Right-click the file and extract it
 
 Open Envi 5.5.3 Software
 
-![ Envi 5.5.3 Visualization view][logo1]
+
+![Envi 5.5.3 Visualization view][logo1]
+
 
 Click the 'view button' on the menu bar and select Two vertical views 
 Altenately hold Alt + 2.
@@ -168,4 +170,5 @@ Content
 <!--- Please use reference style images so that it is easier to update pictures later --->
 
 [dsllogo]: dsl_logo.png
-[logo1]: logo1.png
+[logo1]: logo1.PNG
+
