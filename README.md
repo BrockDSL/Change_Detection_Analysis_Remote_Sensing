@@ -168,4 +168,4 @@ Content
 <!--- Please use reference style images so that it is easier to update pictures later --->
 
 [dsllogo]: dsl_logo.png
-[logo]: logo1.png
+[logo1]: logo1.png
