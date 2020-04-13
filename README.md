@@ -14,14 +14,14 @@ Locate the downloaded file on your computer. Right-click the file and extract it
 Open Envi 5.5.3 Software
 
 
-![Envi 5.5.3 Visualization view][logo1]
+ ![Envi 5.5.3 Visualization view][logo1]
 
 
 Click the 'view button' on the menu bar and select Two vertical views 
 Altenately hold Alt + 2.
 
 
-![Two Vertical Views][logo2]
+ ![Two Vertical Views][logo2]
 
 
 > NB: this operation will generate a left view and a right view on the visualization area 
@@ -67,6 +67,10 @@ Right click on the municipal boundary.shp in the layer manager and select Zoom t
 
 Select the left view
 Go to the search tool box and search my typing subset in the box> Double click Data from ROIs
+
+
+ ![Subset Search][logo3]
+
 
 Select Input File to Subset Via ROI dialogue box pops-up> For the select input file> Select 1987 Stack > Click ok.
 
