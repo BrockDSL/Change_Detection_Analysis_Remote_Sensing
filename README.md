@@ -117,12 +117,10 @@ K-means parameter dialogue box pop-up
 Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
 
 Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
-
-
 *Editing of class names and class colors*
+
+
 Class Name|Class color|New Class Name|New Class Color
-
-
 ---|---|---|---
 Class 1|Red|Waterbody|Blue
 Class 2|Green|Human settlement|Yellow
