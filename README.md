@@ -29,9 +29,18 @@ Altenately hold Alt + 2.
 
 Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 3, band 4, and band 5 of your 1987 landsat data > click open
 
+
+![Loading of 1987 bands][logo24]
+
+
 Alternately you can hold Ctrl + O
 
 Also select the right view and repeat the same process you did for step three. Select band 3, band 4, and band 5 of your 2002 landsat data and click open.
+
+
+![Loading of 2002 bands][logo25]
+
+
 
 **Layer Stacking (Joining of bands)**
 
