@@ -83,6 +83,7 @@ Choose filename and Save as 1987 Subset> Click open > Cick ok.
 
 With the exception of 1987 Subset, uncheck all other layers in the left view in the layer manager.
 
+![1987 Subset][logo6]
 
 Repeat the same process of subsetting data for the 2002 Stack image in the right view.
 
@@ -92,6 +93,8 @@ For the Spatial Subset Via ROI parameters  choose the municipal boundary.shp (i.
 Choose 2002 Subset as the output file name> Click ok.
 
 Also, with the exception of 2002 Subset, uncheck all other layers in the right view in the the layer manager.
+
+![2002 Subset][logo7]
 
 
 **Classification**
