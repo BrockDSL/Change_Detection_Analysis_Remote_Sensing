@@ -120,7 +120,8 @@ Select 1987 Subset in the select input file of the classification input file dia
 
 Click ok
 
-K-means parameter dialogue box pop-up.Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
+K-means parameter dialogue box pop-up.Select number of classess as 3 > choose output filename as 1987 unsupervised > click ok.
+
 
 
 ![K-means parameter][logo10]
@@ -135,6 +136,7 @@ Result of the 1987 Unsupervised Classification
 
 Repeat the same classification process for 2002 Subset and name it as unsupervised 2002.
 
+K-means parameter for 2002 unsupervised classification
 
 ![K-means parameter for 2002 Subset][logo12]
 
@@ -167,18 +169,30 @@ Go to the layer manager pane and Right click on the Classes[Below the K-Means (1
 
 Edit class names and colors dialogue box pop-up
 
+![image of edit class names and colors dialogue box][logo15]
+
+
 Move to class names> click on class1 and type the name Waterbody as the name in the edit box.
 Having the above table as guide, repeat the same process for the other classes.
 
 Move to class color> click on the class name and change the color by double clicking on the color beside the class name(use the above table as a guide).
 
+
 Follow the same step to change the colors of the remaining classes using the table as a guide
+
+
+![image of  edit classes and color for the 1987 unsupervised image][logo16]
 
 Click ok when you are done with the editing
 
 
 
 Repeat this step for the unsupervised 2002 image on the right view
+
+Image showing resultof the editing process for the 1987 and 2002 Unsupervised Classifications.
+
+
+![image result of the editing process for the two unsupervised classifications][logo17]
 
 
 
