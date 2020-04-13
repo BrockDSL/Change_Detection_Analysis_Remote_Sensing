@@ -14,7 +14,7 @@ Locate the downloaded file on your computer. Right-click the file and extract it
 Open Envi 5.5.3 Software
 
 
- ![Envi 5.5.3 Visualization view][logo1]
+ ![Envi 5.5.3 Visualization view][logo31]
 
 
 Click the 'view button' on the menu bar and select Two vertical views 
