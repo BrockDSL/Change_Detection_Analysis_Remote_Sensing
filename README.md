@@ -63,7 +63,11 @@ Choose your output filename as as 1987 Stack and click ok.
 
 Repeat the same steps you did for step 7 for the 2002 Landsat image(i.e., band 3, band 4, and band 5)
 
+![Selection of the 2002 bands][logo22]
+
 Choose output filename as 2002 Stack and click ok.
+
+![Image of 2002 Stack][logo23]
 
 
 Go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile.
