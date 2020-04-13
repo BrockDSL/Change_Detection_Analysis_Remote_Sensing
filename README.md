@@ -102,21 +102,37 @@ Also, with the exception of 2002 Subset, uncheck all other layers in the right v
 In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
 
 Click on the left view> Go to the tool box and expand the classification folder> expand unsupervised classification.
+Double click K-means
+
+
+![Classification folder in subset][logo8]
 
 
 >Note:Unsupervised classification is where outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
 
-Double click K-means
 
-Select 1987 stack in the select input file of the classification input file dialogue box.
+
+Select 1987 Subset in the select input file of the classification input file dialogue box.
+
+
+![Selection of 1987 Subset][logo9]
+
 
 Click ok
 
 K-means parameter dialogue box pop-up
 
+
+![K-means parameter][logo10]
+
+
 Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
 
-Repeat the same classification process for stack 2002 and name it as unsupervised 2002.
+
+![image of 1987 unsupervised image][logo11]
+
+
+Repeat the same classification process for 2002 Subset and name it as unsupervised 2002.
 *Editing of class names and class colors*
 
 
