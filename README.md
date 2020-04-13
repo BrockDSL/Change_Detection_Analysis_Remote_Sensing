@@ -120,11 +120,11 @@ Repeat the same classification process for stack 2002 and name it as unsupervise
 
 
 *Editing of class names and class colors*
-Class Name |	Class color | New Class Name  | New Class Color
---- | --- | --- | ---
-Class 1 |	Red | Waterbody | Blue
-Class 2 |	Green | Human settlement |Yellow
-Class 3 |	Blue | Bareland | Green
+Class Name|Class color|New Class Name|New Class Color
+---|---|---|---
+Class 1|Red|Waterbody|Blue
+Class 2|Green|Human settlement|Yellow
+Class 3|Blue|Bareland|Green
 
 Go to the layer manager pane and Right click on the Classes[Below the K-Means (1987 subset)] on the left view and select edit class names and colors
 
