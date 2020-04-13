@@ -74,9 +74,12 @@ Go to the search tool box and search my typing subset in the box> Double click D
 
 Select Input File to Subset Via ROI dialogue box pops-up> For the select input file> Select 1987 Stack > Click ok.
 
+![Subset Via ROI dialogue box][logo4]
+
 Spatial Subset Via ROI parameters dialogue box pops-up> Select the municipal boundary.shp (i.e., the one at the bottom). 
 Choose filename and Save as 1987 Subset> Click open > Cick ok.
 
+![Subset Via ROI parameters dialogue box][logo5]
 
 With the exception of 1987 Subset, uncheck all other layers in the left view in the layer manager.
 
