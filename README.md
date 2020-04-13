@@ -120,19 +120,39 @@ Select 1987 Subset in the select input file of the classification input file dia
 
 Click ok
 
-K-means parameter dialogue box pop-up
+K-means parameter dialogue box pop-up.Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
 
 
 ![K-means parameter][logo10]
 
 
-Select number of classess as 3 > choose output filename as unsupervised 1987 > click ok.
+
+Result of the 1987 Unsupervised Classification
 
 
 ![image of 1987 unsupervised image][logo11]
 
 
 Repeat the same classification process for 2002 Subset and name it as unsupervised 2002.
+
+
+![K-means parameter for 2002 Subset][logo12]
+
+
+Result of the 2002 Unsupervised Classification
+
+
+![image of 2002 unsupervised image][logo13]
+
+
+
+Image showing  results of the 1987 and 2002 Unsupervised Classifications
+
+
+![image of the two unsupervised image][logo14]
+
+
+
 *Editing of class names and class colors*
 
 
