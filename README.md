@@ -37,16 +37,29 @@ Also select the right view and repeat the same process you did for step three. S
 
 For this step  we will like to join the three bands  of each view to get an image for each view.
 
-Click on the left view> at the far right you will see tool bax> below the tool box expand the raster management folder and double click Build Layer Stack.
+Click on the left view> at the far right you will see tool box> below the tool box expand the raster management folder and double click Build Layer Stack.
+
+
+![Raster management folder showing layer stack][logo18]
+
 
 > Layer stacking  parameters dialogue box pop-up
 
+
+![Layer Stack Dialogue box][logo19]
+
+
 Click on the three dot in the box at the right side of the input raster box > select all the 1987 bands in the select input file(i.e., band 3, band 4, and band 5)
+
+
+![Selection of the 1987 bands][logo20]
+
 
 > Hold the Control key and select the three bands and click ok.
 
 Choose your output filename as as 1987 Stack and click ok.
 
+![Image of the 1987 Stack][logo21]
 
 Repeat the same steps you did for step 7 for the 2002 Landsat image(i.e., band 3, band 4, and band 5)
 
