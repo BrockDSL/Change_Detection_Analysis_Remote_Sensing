@@ -282,19 +282,19 @@ Change Detection Statistics results pop-up. you can see the percentage change, p
 
 Pixel Change result
 
-![Change Detection Folder][logo32]
+![Change Detection pixel result][logo32]
 
 
 Percentage Change result
 
 
-![Change Detection Folder][logo33]
+![Change Detection percentage result][logo33]
 
 
 Area Change result
 
 
-![Change Detection Folder][logo34]
+![Change Detection Area result][logo34]
 
 
 
@@ -328,6 +328,42 @@ For the select input choose 2002 Unsupervised> for the input ROIs choose the Sch
 
 Now uncheck the Scheduled Municipal Structure shp. and the 2002 Unsupervised image> right click the 1987 St. Catharines image and select Zoom to Layer Extent.
 
+
+**Performing Change Detection Statistic**
+
+Repeat Niagara's Change Detection Statistics procedures for that of St. Catharines
+
+Select 1987 St. Catharines as the 'initial state' image and click ok.
+
+
+Select 2002 St. Catharines as the 'final stage' image and click ok.
+
+
+Define Equivalent parameter dialogue box pops-up> select unclassified for both the initial state classess and the final state classes> click ok.
+
+
+Change Detection Statistics Output dialogue box pops-up> Choose your output filename and save as St. Catharines Change Detection Statistics> click ok.
+
+
+
+
+The St. Catharines Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
+
+Pixel Change result
+
+![St. Catharines Change Detection pixel result][logo40]
+
+
+Percentage Change result
+
+
+![St. Catharines Change Detection percentage result][logo41]
+
+
+Area Change result
+
+
+![St. Catharines Change Detection Area result][logo42]
  
  
  
