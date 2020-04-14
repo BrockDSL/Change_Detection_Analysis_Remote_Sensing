@@ -246,7 +246,7 @@ Image showing resultof the editing process for the 1987 and 2002 Unsupervised Cl
 
 
 
-**Change Detection Analysis**
+**Change Detection Analysis for the Entire Niagara Region**
 
 Go to the tool box > expand the change detection folder
 
@@ -297,6 +297,10 @@ Area Change result
 ![Change Detection Folder][logo34]
 
 
+
+
+
+**Change Detection Analysis for St. Catharines**
 
 ### Conclusion
 
