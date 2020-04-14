@@ -85,25 +85,25 @@ select the left view> click file> select open> go to the Change Detection Folder
 
 
 
-![Niagra municipal boundary shapefile 1][logo1]
+![Niagara municipal boundary shapefile 1][logo1]
 
 
-![Niagra municipal boundary shapefile 1 on the visualization aera][logo35]
+![Niagara municipal boundary shapefile 1 on the visualization aera][logo35]
 
 
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
 
 
-![Image of the Niagra municipal boundary shapefile 1][logo36]
+![Image of the Niagara municipal boundary shapefile 1][logo36]
 
 
 Select the right view and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
 
 
-![Niagra municipal boundary shapefile 2][logo37]
+![Niagara municipal boundary shapefile 2][logo37]
 
 
-![Niagra municipal boundary shapefile 1 on the visualization aera][logo38]
+![Niagara municipal boundary shapefile 1 on the visualization aera][logo38]
 
 
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
@@ -304,13 +304,13 @@ Area Change result
 
 Close the previous Change Detection Statistics results
 
-click on the left view> go to file > add the St. Catharines boundary shapefile
+Click on the left view> go to file > add the St. Catharines boundary shapefile
 
-click of the right view and repeat the same process
+Click of the right view and repeat the same process
 
 Data manager dialogue box pops-up> select Municipal Structure and click load
 
-close the Data manager dialogue box (x)
+Close the Data manager dialogue box (x)
 
 ### Conclusion
 
