@@ -312,6 +312,10 @@ Data manager dialogue box pops-up> select Municipal Structure and click load
 
 Close the Data manager dialogue box (x)
 
+Generating the Study Area for St. Catharines
+
+Click on the left view and generate a subset for St. Catharines by following the same procedure you used to subset Niagara boundary shapefile from the stacked images.
+
 ### Conclusion
 
 Content
