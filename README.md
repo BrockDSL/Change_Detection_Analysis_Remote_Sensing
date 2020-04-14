@@ -83,11 +83,28 @@ Go to file and add the niagara regional municipality boundaries to both views. R
 
 select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose municipal boundary (1) folder> select municipal boundary.shp > click open.
 
+
+![Niagra municipal boundary shapefile 1][logo1]
+
+
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+
+
+![Image of the Niagra municipal boundary shapefile 1][logo35]
+
 
 Select the right view and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
 
+
+![Niagra municipal boundary shapefile 2][logo36]
+
+
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+
+
+![Image of the Niagra municipal boundary shapefile 2][logo37]
+
+
 
 **Subsetting  Stack Data from Region of Interest(ROI)**
 
@@ -331,3 +348,13 @@ Content
 [logo35]: logo35.PNG
 [logo36]: logo36.PNG
 [logo37]: logo37.PNG
+[logo38]: logo38.PNG
+[logo39]: logo39.PNG
+[logo40]: logo40.PNG
+[logo41]: logo41.PNG
+[logo42]: logo42.PNG
+[logo43]: logo43.PNG
+[logo44]: logo44.PNG
+[logo45]: logo45.PNG
+[logo46]: logo46.PNG
+[logo47]: logo47.PNG
