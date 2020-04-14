@@ -84,25 +84,32 @@ Go to file and add the niagara regional municipality boundaries to both views. R
 select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose municipal boundary (1) folder> select municipal boundary.shp > click open.
 
 
+
 ![Niagra municipal boundary shapefile 1][logo1]
+
+
+![Niagra municipal boundary shapefile 1 on the visualization aera][logo35]
 
 
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
 
 
-![Image of the Niagra municipal boundary shapefile 1][logo35]
+![Image of the Niagra municipal boundary shapefile 1][logo36]
 
 
 Select the right view and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
 
 
-![Niagra municipal boundary shapefile 2][logo36]
+![Niagra municipal boundary shapefile 2][logo37]
+
+
+![Niagra municipal boundary shapefile 1 on the visualization aera][logo38]
 
 
 Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
 
 
-![Image of the Niagra municipal boundary shapefile 2][logo37]
+![Image of the Niagra municipal boundary shapefile 2][logo39]
 
 
 
