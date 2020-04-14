@@ -302,6 +302,16 @@ Area Change result
 
 **Change Detection Analysis for St. Catharines**
 
+Close the previous Change Detection Statistics results
+
+click on the left view> go to file > add the St. Catharines boundary shapefile
+
+click of the right view and repeat the same process
+
+Data manager dialogue box pops-up> select Municipal Structure and click load
+
+close the Data manager dialogue box (x)
+
 ### Conclusion
 
 Content
