@@ -254,13 +254,13 @@ Go to the tool box > expand the change detection folder
 
 Double click change detection statistics
 
-Select unsupervised 1987(i.e.' K-means 1987 stack) as the 'initial state' image and click ok.
+Select unsupervised 1987(i.e.' K-means 1987 Subset) as the 'initial state' image and click ok.
 
 
 ![Selection of initial state][logo27]
 
 
-Select unsupervised 2002(i.e., K-means 2002) as the 'final stage' image and click ok.
+Select unsupervised 2002(i.e., K-means 2002 Subset) as the 'final stage' image and click ok.
 
 
 ![Selection of final state][logo28]
@@ -316,6 +316,23 @@ Generating the Study Area for St. Catharines
 
 Click on the left view and generate a subset for St. Catharines by following the same procedure you used to subset Niagara boundary shapefile from the stacked images.
 
+For the select input choose 1987 Unsupervised> for the input ROIs choose the Scheduled Municipal Structure shp.> and save as 1987 St. Catharines
+
+Now uncheck the Scheduled Municipal Structure shp. and the 1987 Unsupervised image> right click the 1987 St. Catharines and select Zoom to Layer Extent.
+
+
+
+Repeat the same procedure for the right view (i.e. for the 2002 image)
+
+For the select input choose 2002 Unsupervised> for the input ROIs choose the Scheduled Municipal Structure shp.> and save as 2002 St. Catharines
+
+Now uncheck the Scheduled Municipal Structure shp. and the 2002 Unsupervised image> right click the 1987 St. Catharines image and select Zoom to Layer Extent.
+
+ 
+ 
+ 
+ 
+ 
 ### Conclusion
 
 Content
