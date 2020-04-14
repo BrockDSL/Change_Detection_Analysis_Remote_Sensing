@@ -256,6 +256,23 @@ Change Detection Statistics Output dialogue box pops-up> Choose your output file
 
 Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
 
+Pixel Change result
+
+![Change Detection Folder][logo32]
+
+
+Percentage Change result
+
+
+![Change Detection Folder][logo33]
+
+
+Area Change result
+
+
+![Change Detection Folder][logo34]
+
+
 
 ### Conclusion
 
