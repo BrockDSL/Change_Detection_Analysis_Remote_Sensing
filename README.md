@@ -2,7 +2,10 @@
 
 
 #  Niagara's Land Cover Change Analysis: An Introduction to Change Detection Analysis
-Description of contents
+
+### Introduction
+
+For this project, I will explore Landsat 5 and Landsat EMT7 using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 in the Niagara Region. Data for the purpose of this project were gathered from United States Geological Survey (USGS)EarthExplorer and the Niagara Open data websites.  Variables that will be examined to identify food deserts are distance to supermarkets and number of supermarkets. I will also analyze the data to detect spatial patterns. Finally, I will share my work on ArcGIS online and create new shapefiles from my results.
 
 ### Procedures
 
