@@ -5,7 +5,7 @@
 
 ### Introduction
 
-For this project, I will explore Landsat 5 and Landsat EMT7 using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 in the Niagara Region. Data for the purpose of this project were gathered from United States Geological Survey (USGS)EarthExplorer and the Niagara Open data websites.  Variables that will be examined to identify food deserts are distance to supermarkets and number of supermarkets. I will also analyze the data to detect spatial patterns. Finally, I will share my work on ArcGIS online and create new shapefiles from my results.
+For this project, I will explore Landsat images using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 in the Niagara Region. Data for the purpose of this project were gathered from United States Geological Survey (USGS)EarthExplorer and the Niagara Open data websites. data retrieved from USGS EarthExplorer website were Landsat 5 and Landsat EMT7 images for the years 1987 and 2002 respectively. The Niagara Open Data website provided my study with boundary shapefiles for the Niagara Region and St. Catharines. I collected the boundary shapefile  for St. Catharines because I had wanted to understand changes in land cover at the individual municipality level rather in addition to the entire region.Furthermore since I am staff at Brock University which is also located in St. catharinees, thus findings of land cover change in St. Catharines will be of benefit to environmental researchers at Brock, environmental activists, authorities at the St. Catharines' Municipality and in particular the Niagara Region Municipality at the larger scale. 
 
 ### Procedures
 
