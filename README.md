@@ -306,13 +306,23 @@ Close the previous Change Detection Statistics results
 
 Click on the left view> go to file > add the St. Catharines boundary shapefile
 
+
+![St. Catharines Shapefile][logo43]
+
+
 Click of the right view and repeat the same process
 
 Data manager dialogue box pops-up> select Municipal Structure and click load
 
+
+![Data Manager dialogue box][logo44]
+
+
+
 Close the Data manager dialogue box (x)
 
-Generating the Study Area for St. Catharines
+
+**Generating the Study Area for St. Catharines**
 
 Click on the left view and generate a subset for St. Catharines by following the same procedure you used to subset Niagara boundary shapefile from the stacked images.
 
@@ -327,6 +337,15 @@ Repeat the same procedure for the right view (i.e. for the 2002 image)
 For the select input choose 2002 Unsupervised> for the input ROIs choose the Scheduled Municipal Structure shp.> and save as 2002 St. Catharines
 
 Now uncheck the Scheduled Municipal Structure shp. and the 2002 Unsupervised image> right click the 1987 St. Catharines image and select Zoom to Layer Extent.
+
+
+![Result of the Subset for both images][logo45]
+
+
+
+
+![Zoom Result of the Subset for both images][logo46]
+
 
 
 **Performing Change Detection Statistic**
