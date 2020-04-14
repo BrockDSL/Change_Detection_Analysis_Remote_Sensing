@@ -226,15 +226,32 @@ Image showing resultof the editing process for the 1987 and 2002 Unsupervised Cl
 
 Go to the tool box > expand the change detection folder
 
+![Change Detection Folder][logo26]
+
 Double click change detection statistics
 
 Select unsupervised 1987(i.e.' K-means 1987 stack) as the 'initial state' image and click ok.
 
+
+![Selection of initial state][logo27]
+
+
 Select unsupervised 2002(i.e., K-means 2002) as the 'final stage' image and click ok.
+
+
+![Selection of final state][logo28]
+
 
 Definine Equivalent parameter dialogue box pops-up> select unclassified for both the initial state classess and the final state classes> click ok.
 
-Change Detection Statistics Output dialogue pops-up> Choose your output filename and save as Change Detection Statistics> click ok.
+
+![Define Equivalent parameter][logo29]
+
+
+Change Detection Statistics Output dialogue box pops-up> Choose your output filename and save as Change Detection Statistics> click ok.
+
+
+![Change detection statistics output dialogue box][logo30]
 
 
 Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
@@ -291,3 +308,9 @@ Content
 [logo29]: logo29.PNG
 [logo30]: logo30.PNG
 [logo31]: logo31.PNG
+[logo32]: logo32.PNG
+[logo33]: logo33.PNG
+[logo34]: logo34.PNG
+[logo35]: logo35.PNG
+[logo36]: logo36.PNG
+[logo37]: logo37.PNG
