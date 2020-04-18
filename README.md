@@ -5,40 +5,42 @@
 
 ### Introduction
 
-For this project, I will explore Landsat images using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 within the Niagara Region. Data for the purpose of this project were gathered from United States Geological Survey (USGS) EarthExplorer and the Niagara Open data websites. Data retrieved from USGS EarthExplorer website were Landsat 5 and Landsat EMT7 images for the years 1987 and 2002 respectively. The Niagara Open Data website provided my study with boundary shapefiles for the Niagara Region and St. Catharines. I collected the boundary shapefile  for St. Catharines because I had wanted to understand changes in land cover at the individual municipality level, in addition to that of the entire region.Furthermore since I am staff at Brock University which is also located in St. catharinees, thus findings of land cover change in St. Catharines will be of benefit to environmental researchers at Brock, environmental activists, authorities at the St. Catharines' Municipality and in particular the Niagara Region Municipality at a larger scale. The main purpose of this project is to introduce first time users - particularly students - to  some Remote Sensing techniques.
+For this project, I will explore Landsat images using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 within the Niagara Region. Land Cover was classified into three groups, namely: Waterbody, Bare land, and Human Settlement. Data for this project were gathered from the United States Geological Survey (USGS) EarthExplorer and the Niagara Open data websites. Data retrieved from the USGS EarthExplorer website were Landsat 5 and Landsat EMT7 images for the years 1987 and 2002, respectively. The Niagara Open Data website, provided my study with boundary shapefiles for the Niagara Region and St. Catharines. I collected the boundary shapefile for St. Catharines because I had wanted to understand changes in land cover at the individual municipality level, in addition to that of the entire region.
+Furthermore since I am staff at Brock University which is also located in St. Catharines, thus findings of land cover change in St. Catharines will be of benefit to environmental researchers at Brock, environmental activists, authorities at the St. Catharines' Municipality and in particular the Niagara Region Municipality at a larger scale. The main purpose of this project is to introduce first time users - particularly students - to some Remote Sensing techniques. Some of these techniques include **Layer Stacking, Subsetting Region of Interest, Classification, and Change Detection Statistics**.
+
 
 ### Procedures
 
-Download the Change Detection compressed folder from the GitHub link below:
+Download the **Change Detection compressed folder** from the GitHub link below:
 https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
 
 Locate the downloaded file on your computer. Right-click the file and extract it to a location where you can easily find it, such as your Documents folder.
 
-Open Envi 5.5.3 Software
+Open **Envi 5.5.3** Software
 
 
  ![Envi 5.5.3 Visualization view][logo31]
 
 
-Click the 'view button' on the menu bar and select Two vertical views 
-Altenately hold Alt + 2.
+Click the '**view button**' on the menu bar and select **Two vertical views* 
+Altenately hold **Alt + 2**.
 
 
  ![Two Vertical Views][logo2]
 
 
-> NB: this operation will generate a left view and a right view on the visualization area 
+> NB: this operation will generate a **left view** and a **right view** on the visualization area 
 
 
-Click on the left view> Go to file> go to the location of the downloaded Remote sensing data> select band 3, band 4, and band 5 of your 1987 landsat data > click open
+Click on the **left view** > Go to **File** > go to the location of the downloaded Remote sensing data> select **band 3, band 4, and band 5** of your **1987 landsat data** > click **Open**.
 
 
 ![Loading of 1987 bands][logo24]
 
 
-Alternately you can hold Ctrl + O
+Alternately you can hold **Ctrl + O**.
 
-Also select the right view and repeat the same process you did for step three. Select band 3, band 4, and band 5 of your 2002 landsat data and click open.
+Also select the **right view** and repeat the same process you did for step three. Select **band 3, band 4, and band 5** of your **2002 landsat data** and click **Open**.
 
 
 ![Loading of 2002 bands][logo25]
@@ -82,9 +84,11 @@ Choose output filename as 2002 Stack and click ok.
 ![Image of 2002 Stack][logo23]
 
 
-Go to file and add the niagara regional municipality boundaries to both views. Right click the shapefiles > zoom to layer and uncheck the municipal boundaries shapefile.
+Go to file and add the niagara regional municipality boundaries to both views. 
 
-select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose municipal boundary (1) folder> select municipal boundary.shp > click open.
+Right click the shapefiles > select zoom to layer Extent and **uncheck** the Municipal Boundaries Shapefile.
+
+select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose **Municipal Boundary (1)** folder> select **Municipal Boundary.shp** > click **Open**.
 
 
 
@@ -94,13 +98,13 @@ select the left view> click file> select open> go to the Change Detection Folder
 ![Niagara municipal boundary shapefile 1 on the visualization aera][logo35]
 
 
-Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+Right click on the **Municipal Boundary.shp** in the **Layer Manager** and select **Zoom to layer Extent**.
 
 
 ![Image of the Niagara municipal boundary shapefile 1][logo36]
 
 
-Select the right view and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
+Select the **right view** and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
 
 
 ![Niagara municipal boundary shapefile 2][logo37]
@@ -109,7 +113,7 @@ Select the right view and repeat the above steps to add the municipal boundary s
 ![Niagara municipal boundary shapefile 1 on the visualization aera][logo38]
 
 
-Right click on the municipal boundary.shp in the layer manager and select Zoom to layer Extent.
+Right click on the **Municipal Boundary.shp** in the **Layer Manager** and select **Zoom to layer Extent**.
 
 
 ![Image of the Niagra municipal boundary shapefile 2][logo39]
@@ -118,62 +122,71 @@ Right click on the municipal boundary.shp in the layer manager and select Zoom t
 
 **Subsetting  Stack Data from Region of Interest(ROI)**
 
-Select the left view
-Go to the search tool box and search my typing subset in the box> Double click Data from ROIs
+Select the **Left View**.
+
+Go to the **Search Tool Box** and search by typing **Subset** in the search box > Double-click **Data from ROIs**.
 
 
  ![Subset Search][logo3]
 
 
-Select Input File to Subset Via ROI dialogue box pops-up> For the select input file> Select 1987 Stack > Click ok.
+**Select Input File to Subset Via ROI** dialogue box pops-up > For the **Select Input File** choose **1987 Stack** > Click **Ok**.
+
 
 ![Subset Via ROI dialogue box][logo4]
 
-Spatial Subset Via ROI parameters dialogue box pops-up> Select the municipal boundary.shp (i.e., the one at the bottom). 
-Choose filename and Save as 1987 Subset> Click open > Cick ok.
+
+**Spatial Subset Via ROI Parameters** dialogue box pops-up > Select the **Municipal Boundary.shp** (i.e., *the one at the bottom*). 
+
+Choose **Output Filename** and save as **1987 Subset** > Click **Open** > Click **Ok**.
+
 
 ![Subset Via ROI parameters dialogue box][logo5]
 
-With the exception of 1987 Subset, uncheck all other layers in the left view in the layer manager.
+
+With the exception of **1987 Subset**, **uncheck** all other layers in the **Left View** in the **Layer Manager**.
+
 
 ![1987 Subset][logo6]
 
-Repeat the same process of subsetting data for the 2002 Stack image in the right view.
 
-Select the right view> for the select input file> Choose 2002 Stack and Click ok.
+Repeat the same process of subsetting data for the **2002 Stack** image in the **Right View**.
 
-For the Spatial Subset Via ROI parameters  choose the municipal boundary.shp (i.e., the one at the top)
-Choose 2002 Subset as the output file name> Click ok.
+Select the **Right View** > For the **Select Input File** > Choose **2002 Stack** and Click **Ok**.
 
-Also, with the exception of 2002 Subset, uncheck all other layers in the right view in the the layer manager.
+For the **Spatial Subset Via ROI parameters**,  choose the **Municipal Boundary.shp** (i.e., *the one at the top*)
+
+Choose **2002 Subset** as the **Output Filename** > Click **Ok**.
+
+Also, with the exception of 2002 **Subset**, **uncheck** all other layers in the **Right View** in the **Layer Manager**.
 
 ![2002 Subset][logo7]
 
 
 **Classification**
 
-In this section we would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classifying the land cover inro different land uses without any input of the user).
+In this section I would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classify the land cover into different land uses without any input of the user).
 
-Click on the left view> Go to the tool box and expand the classification folder> expand unsupervised classification.
-Double click K-means
+Click on the **Left View** > Go to the **Tool Box** and Expand the **Classification** folder> Expand **Unsupervised Classification**.
+Double-click **K-means**.
 
 
 ![Classification folder in subset][logo8]
 
 
->Note:Unsupervised classification is where outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
+>Note:Unsupervised classification is when outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
 
 
 
-Select 1987 Subset in the select input file of the classification input file dialogue box.
+Select **1987 Subset** as the **Select Input File** from the **Classification Input File** dialogue box.
 
 
 ![Selection of 1987 Subset][logo9]
 
 
-Click ok
+Click **Ok**.
 
-K-means parameter dialogue box pop-up.Select number of classess as 3 > choose output filename as 1987 unsupervised > click ok.
+**K-means Parameter** dialogue box pop-up. Select **number of classes** as **3** > Choose **Output Filename** as **1987 Unsupervised** > Click **Ok**.
 
 
 
@@ -187,40 +200,40 @@ Result of the 1987 Unsupervised Classification
 ![image of 1987 unsupervised image][logo11]
 
 
-Repeat the same classification process for 2002 Subset and name it as unsupervised 2002.
+Repeat the same classification process for **2002 Subset** and name it as **Unsupervised 2002**.
 
 K-means parameter for 2002 unsupervised classification
 
 ![K-means parameter for 2002 Subset][logo12]
 
 
-Result of the 2002 Unsupervised Classification
+Result of the 2002 Unsupervised Classification.
 
 
 ![image of 2002 unsupervised image][logo13]
 
 
 
-Image showing  results of the 1987 and 2002 Unsupervised Classifications
+Image showing  results of the 1987 and 2002 Unsupervised Classifications.
 
 
 ![image of the two unsupervised image][logo14]
 
 
 
-*Editing of class names and class colors*
+*Editing of Class Names and Class Colors*
 
 
-Class Name|Class color|New Class Name|New Class Color
----|---|---|---
-Class 1|Red|Waterbody|Blue
-Class 2|Green|Human settlement|Yellow
-Class 3|Blue|Bareland|Green
+Class Name| Class color| New Class Name| New Class Color
+---| ---| ---| ---
+Class 1| Red| Waterbody| Blue
+Class 2| Green| Human settlement| Yellow
+Class 3| Blue| Bareland| Green
 
 
-Go to the layer manager pane and Right click on the Classes[Below the K-Means (1987 subset)] on the left view and select edit class names and colors
+Go to the **Layer Manager** pane and Right click on the **Classes**[Below the K-Means (1987 subset)] on the **Left View** and select **Edit Class Names and Colors**.
 
-Edit class names and colors dialogue box pop-up
+**Edit Class Names and Colors** dialogue box pop-up.
 
 ![image of edit class names and colors dialogue box][logo15]
 
@@ -228,21 +241,22 @@ Edit class names and colors dialogue box pop-up
 Move to class names> click on class1 and type the name Waterbody as the name in the edit box.
 Having the above table as guide, repeat the same process for the other classes.
 
-Move to class color> click on the class name and change the color by double clicking on the color beside the class name(use the above table as a guide).
+Move to **Class Color** > Click on the **Class Name** and change the **Color** by **double-clicking** on the **Color** beside the **Class Name** (*use the above table as a guide*).
 
 
-Follow the same step to change the colors of the remaining classes using the table as a guide
+Follow the same step to change the colors of the remaining classes using the table as a guide.
 
 
 ![image of  edit classes and color for the 1987 unsupervised image][logo16]
 
-Click ok when you are done with the editing
+
+Click **Ok** when you are done with the editing.
 
 
 
-Repeat this step for the unsupervised 2002 image on the right view
+Repeat this step for the **Unsupervised 2002** image on the **Right View**.
 
-Image showing resultof the editing process for the 1987 and 2002 Unsupervised Classifications.
+< The Image below shows result of the editing process for the 1987 and 2002 Unsupervised Classifications.
 
 
 ![image result of the editing process for the two unsupervised classifications][logo17]
@@ -251,50 +265,50 @@ Image showing resultof the editing process for the 1987 and 2002 Unsupervised Cl
 
 **Change Detection Analysis for the Entire Niagara Region**
 
-Go to the tool box > expand the change detection folder
+Go to the **Tool Box** > Expand the **Change Detection** folder.
 
 ![Change Detection Folder][logo26]
 
-Double click change detection statistics
+Double-click **Change Detection Statistics**.
 
-Select unsupervised 1987(i.e.' K-means 1987 Subset) as the 'initial state' image and click ok.
+Select **Unsupervised 1987** (i.e. *K-means 1987 Subset*) as the **Initial state** image and click **Ok**.
 
 
 ![Selection of initial state][logo27]
 
 
-Select unsupervised 2002(i.e., K-means 2002 Subset) as the 'final stage' image and click ok.
+Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage** image and click **Ok**.
 
 
 ![Selection of final state][logo28]
 
 
-Definine Equivalent parameter dialogue box pops-up> select unclassified for both the initial state classess and the final state classes> click ok.
+**Definine Equivalent Parameter** dialogue box pops-up > Select **unclassified** for both the **Initial State Classes** and the **Final State Classes** > Click **Ok**.
 
 
 ![Define Equivalent parameter][logo29]
 
 
-Change Detection Statistics Output dialogue box pops-up> Choose your output filename and save as Change Detection Statistics> click ok.
+**Change Detection Statistics Output** dialogue box pops-up> Choose your **Output Filename** and save as **Change Detection Statistics**> Click **Ok**.
 
 
 ![Change detection statistics output dialogue box][logo30]
 
 
-Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
+**Change Detection Statistics** results pop-up. You can view the **percentage change, pixel count change and area change (in square metre)** for the three types of Land Cover. You can also save your result as a **Text File**. Click **File** and **Save**.
 
-Pixel Change result
+**Pixel Count Change Result**
 
 ![Change Detection pixel result][logo32]
 
 
-Percentage Change result
+**Percentage Change Result**
 
 
 ![Change Detection percentage result][logo33]
 
 
-Area Change result
+**Area Change Result**
 
 
 ![Change Detection Area result][logo34]
@@ -305,41 +319,41 @@ Area Change result
 
 **Change Detection Analysis for St. Catharines**
 
-Close the previous Change Detection Statistics results
+Close the previous **Change Detection Statistics results**.
 
-Click on the left view> go to file > add the St. Catharines boundary shapefile
+Click on the **Left View** > Go to **File** > Add the **St. Catharines Boundary Shapefile**.
 
 
 ![St. Catharines Shapefile][logo43]
 
 
-Click of the right view and repeat the same process
+Click of the **Right View** and repeat the same process.
 
-Data manager dialogue box pops-up> select Municipal Structure and click load
+**Data Manager** dialogue box pops-up > Select **Scheduled Municipal Structure shp.** and click **Load**.
 
 
 ![Data Manager dialogue box][logo44]
 
 
 
-Close the Data manager dialogue box (x)
+Close the **Data Manager** dialogue box **(x)**.
 
 
 **Generating the Study Area for St. Catharines**
 
-Click on the left view and generate a subset for St. Catharines by following the same procedure you used to subset Niagara boundary shapefile from the stacked images.
+Click on the **Left View** and generate a **subset** for **St. Catharines** by following the same procedure you used to **subset** the **Niagara boundary shapefile** from the **stacked images**.
 
-For the select input choose 1987 Unsupervised> for the input ROIs choose the Scheduled Municipal Structure shp.> and save as 1987 St. Catharines
+For the **Select Input** choose **1987 Unsupervised**> For the **Input ROIs** choose the **Scheduled Municipal Structure shp.**> and save as **1987 St. Catharines**.
 
-Now uncheck the Scheduled Municipal Structure shp. and the 1987 Unsupervised image> right click the 1987 St. Catharines and select Zoom to Layer Extent.
+Now **uncheck** the ***Scheduled Municipal Structure shp. and the ***1987 Unsupervised* image> Right click the **1987 St. Catharines** and select **Zoom to Layer Extent**.
 
 
 
-Repeat the same procedure for the right view (i.e. for the 2002 image)
+Repeat the same procedure for the right view (i.e. *for the 2002 image*)
 
-For the select input choose 2002 Unsupervised> for the input ROIs choose the Scheduled Municipal Structure shp.> and save as 2002 St. Catharines
+For the **select input** choose **2002 Unsupervised**> For the **Input ROIs** choose the **Scheduled Municipal Structure shp.** > and save as **2002 St. Catharines**.
 
-Now uncheck the Scheduled Municipal Structure shp. and the 2002 Unsupervised image> right click the 1987 St. Catharines image and select Zoom to Layer Extent.
+Now **uncheck** the **Scheduled Municipal Structure shp.** and the **2002 Unsupervised** image> Right click the **1987 St. Catharines** image and select **Zoom to Layer Extent**.
 
 
 ![Result of the Subset for both images][logo45]
@@ -355,34 +369,34 @@ Now uncheck the Scheduled Municipal Structure shp. and the 2002 Unsupervised ima
 
 Repeat Niagara's Change Detection Statistics procedures for that of St. Catharines
 
-Select 1987 St. Catharines as the 'initial state' image and click ok.
+Select **1987 St. Catharines** as the **Initial State** image and click **Ok**.
 
 
-Select 2002 St. Catharines as the 'final stage' image and click ok.
+Select **2002 St. Catharines** as the **Final Stage** image and click **Ok**.
 
 
-Define Equivalent parameter dialogue box pops-up> select unclassified for both the initial state classess and the final state classes> click ok.
+**Define Equivalent parameter** dialogue box pops-up> Select **unclassified** for both **Initial State Classes** and **Final State Classes**> Click **Ok**.
 
 
-Change Detection Statistics Output dialogue box pops-up> Choose your output filename and save as St. Catharines Change Detection Statistics> click ok.
+**Change Detection Statistics Output** dialogue box pops-up> Choose your **Output Filename** and save as **St. Catharines Change Detection Statistics**> Click **Ok**.
 
 
 
 
-The St. Catharines Change Detection Statistics results pop-up. you can see the percentage change, pixel change and area change (in square metre). you can also save your result as a text file. click file and save.
+The St. Catharines **Change Detection Statistics** results pop-up. you can see the changes in land cover in **percentage, pixel and area (in square metre)**. You can also **Save** your result as a text file. Click **File** on top of the pop-up Change Destection Result and select **Save**.
 
-Pixel Change result
+**Pixel Count Change Result**
 
 ![St. Catharines Change Detection pixel result][logo40]
 
 
-Percentage Change result
+**Percentage Change Result**
 
 
 ![St. Catharines Change Detection percentage result][logo41]
 
 
-Area Change result
+**Area Change Result**
 
 
 ![St. Catharines Change Detection Area result][logo42]
