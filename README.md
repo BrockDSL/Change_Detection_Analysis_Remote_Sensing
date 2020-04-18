@@ -11,28 +11,29 @@ Furthermore since I am staff at Brock University which is also located in St. Ca
 
 ### Procedures
 
-Download the **Change Detection compressed folder** from the GitHub link below:
+Download the **Change Detection Compressed Folder** from the **GitHub Link** below:
 https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
 
 Locate the downloaded file on your computer. Right-click the file and extract it to a location where you can easily find it, such as your Documents folder.
 
-Open **Envi 5.5.3** Software
+Open **Envi 5.5.3** Software.
 
 
  ![Envi 5.5.3 Visualization view][logo31]
 
 
-Click the '**view button**' on the menu bar and select **Two vertical views* 
+Click the '**View** button on the **Menu Bar** and select **Two Vertical Views**. 
+
 Altenately hold **Alt + 2**.
 
 
  ![Two Vertical Views][logo2]
 
 
-> NB: this operation will generate a **left view** and a **right view** on the visualization area 
+> NB: This operation will generate a **Left View** and a **Right View** on the visualization area. 
 
 
-Click on the **left view** > Go to **File** > go to the location of the downloaded Remote sensing data> select **band 3, band 4, and band 5** of your **1987 landsat data** > click **Open**.
+Click on the **Left View** > Go to **File** > Go to the location of the downloaded **Remote Sensing** Data > Select **Band 3, Band 4, and Band 5** of your **1987 Landsat** data > Click **Open**.
 
 
 ![Loading of 1987 bands][logo24]
@@ -40,7 +41,7 @@ Click on the **left view** > Go to **File** > go to the location of the download
 
 Alternately you can hold **Ctrl + O**.
 
-Also select the **right view** and repeat the same process you did for step three. Select **band 3, band 4, and band 5** of your **2002 landsat data** and click **Open**.
+Also select the **Right View** and repeat the same process you did for step three. Select **Band 3, Band 4, and Band 5** of your **2002 Landsat Data** and click **Open**.
 
 
 ![Loading of 2002 bands][logo25]
@@ -49,46 +50,51 @@ Also select the **right view** and repeat the same process you did for step thre
 
 **Layer Stacking (Joining of bands)**
 
-For this step  we will like to join the three bands  of each view to get an image for each view.
+For this step  we will like to join the three bands of each view to get a single image for each view.
 
-Click on the left view> at the far right you will see tool box> below the tool box expand the raster management folder and double click Build Layer Stack.
+Click on the **Left View** > the far right you will see **Tool Box** > Below the **Tool Box** expand the **Raster Management** folder and double-click **Build Layer Stack**.
 
 
 ![Raster management folder showing layer stack][logo18]
 
 
-> Layer stacking  parameters dialogue box pop-up
+**Layer Stacking  Parameters** dialogue box pop-up.
 
 
 ![Layer Stack Dialogue box][logo19]
 
 
-Click on the three dot in the box at the right side of the input raster box > select all the 1987 bands in the select input file(i.e., band 3, band 4, and band 5)
+Click on the **three dot in the box** at the right side of the **Input Raster Box** > Select all the **1987 Bands** in the **Select Input File** (i.e., **Band 3, Band 4, and Band 5**)
 
 
 ![Selection of the 1987 bands][logo20]
 
 
-> Hold the Control key and select the three bands and click ok.
+> Hold the Control key and select the three bands and click **Ok**.
 
-Choose your output filename as as 1987 Stack and click ok.
+Choose your **Output Filename** as **1987 Stack** and Click **Ok**.
+
 
 ![Image of the 1987 Stack][logo21]
 
-Repeat the same steps you did for step 7 for the 2002 Landsat image(i.e., band 3, band 4, and band 5)
+
+Repeat the same steps you did for step 7 for the **2002 Landsat** image (i.e., **Band 3, Band 4, and Band 5**)
+
 
 ![Selection of the 2002 bands][logo22]
 
-Choose output filename as 2002 Stack and click ok.
+
+Choose **Output Filename** as **2002 Stack** and click **Ok*.
+
 
 ![Image of 2002 Stack][logo23]
 
 
-Go to file and add the niagara regional municipality boundaries to both views. 
+Go to **File** and add the **Niagara Regional Municipality Boundary Shapefiles** to both **Views**. 
 
-Right click the shapefiles > select zoom to layer Extent and **uncheck** the Municipal Boundaries Shapefile.
+Right-click the **Shapefiles** > Select **Zoom to Layer Extent** and **uncheck** the **Municipal Boundaries Shapefile**.
 
-select the left view> click file> select open> go to the Change Detection Folder> in the Niagara open data fold choose **Municipal Boundary (1)** folder> select **Municipal Boundary.shp** > click **Open**.
+Select the **Left View** > Click **File** > Select **Open** > Go to the **Change Detection** Folder > In the **Niagara Open Data** folder choose **Municipal Boundary (1)** folder > Select **Municipal Boundary.shp** > Click **Open**.
 
 
 
@@ -104,7 +110,7 @@ Right click on the **Municipal Boundary.shp** in the **Layer Manager** and selec
 ![Image of the Niagara municipal boundary shapefile 1][logo36]
 
 
-Select the **right view** and repeat the above steps to add the municipal boundary shapefile. However, for thsi step you would choose municipal boundary (2) folder and select municipal boundary.shp and click opem. 
+Select the **Right View** and repeat the above steps to add the **Municipal Boundary Shapefile**. However, for thsi step you would choose **Municipal Boundary (2)** folder and select **Municipal Boundary.shp** and click **Open**. 
 
 
 ![Niagara municipal boundary shapefile 2][logo37]
