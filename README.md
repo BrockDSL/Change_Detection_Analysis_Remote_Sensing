@@ -6,7 +6,7 @@
 ### Introduction
 
 For this project, I will explore Landsat images using ENVI 5.5.3 to identify changes in land cover between 1987 and 2002 within the Niagara Region. Land Cover was classified into three groups, namely: Waterbody, Bare land, and Human Settlement. Data for this project were gathered from the United States Geological Survey (USGS) EarthExplorer and the Niagara Open data websites. Data retrieved from the USGS EarthExplorer website were Landsat 5 and Landsat EMT7 images for the years 1987 and 2002, respectively. The Niagara Open Data website, provided my study with boundary shapefiles for the Niagara Region and St. Catharines. I collected the boundary shapefile for St. Catharines because I had wanted to understand changes in land cover at the individual municipality level, in addition to that of the entire region.
-Furthermore since I am staff at Brock University which is also located in St. Catharines, thus findings of land cover change in St. Catharines will be of benefit to environmental researchers at Brock, environmental activists, authorities at the St. Catharines' Municipality and in particular the Niagara Region Municipality at a larger scale. The main purpose of this project is to introduce first time users - particularly students - to some Remote Sensing techniques. Some of these techniques include **Layer Stacking, Subsetting Region of Interest, Classification, and Change Detection Statistics**.
+Furthermore, since I am staff at Brock University which is also located in St. Catharines, thus findings of land cover change in St. Catharines will be of benefit to environmental researchers at Brock, environmental activists, authorities at the St. Catharines' Municipality and in particular the Niagara Region Municipality at a larger scale. The main purpose of this project is to introduce first time users - particularly students - to some Remote Sensing techniques. Some of these techniques include **Layer Stacking, Subsetting Region of Interest, Classification, and Change Detection Statistics**.
 
 
 ### Procedures
@@ -420,6 +420,9 @@ Content
  
  
 
+**Author**: Philip Dwomoh
+**Position**: Map, Data and GIS Library Student Assistant
+**Organization**: Brock University Digital Scholarship Lab 
 
 
 
