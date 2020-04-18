@@ -421,7 +421,9 @@ Content
  
 
 **Author**: Philip Dwomoh
+
 **Position**: Map, Data and GIS Library Student Assistant
+
 **Organization**: Brock University Digital Scholarship Lab 
 
 
