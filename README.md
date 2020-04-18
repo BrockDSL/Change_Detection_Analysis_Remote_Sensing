@@ -230,7 +230,7 @@ Image showing  results of the 1987 and 2002 Unsupervised Classifications.
 *Editing of Class Names and Class Colors*
 
 
-Class Name| Class color| New Class Name| New Class Color
+Class Name| Class Color| New Class Name| New Class Color
 ---| ---| ---| ---
 Class 1| Red| Waterbody| Blue
 Class 2| Green| Human settlement| Yellow
