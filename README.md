@@ -166,7 +166,9 @@ Choose **2002 Subset** as the **Output Filename** > Click **Ok**.
 
 Also, with the exception of 2002 **Subset**, **uncheck** all other layers in the **Right View** in the **Layer Manager**.
 
+
 ![2002 Subset][logo7]
+
 
 
 **Classification**
@@ -241,6 +243,7 @@ Go to the **Layer Manager** pane and Right click on the **Classes**[Below the K-
 
 **Edit Class Names and Colors** dialogue box pop-up.
 
+
 ![image of edit class names and colors dialogue box][logo15]
 
 
@@ -273,7 +276,9 @@ Repeat this step for the **Unsupervised 2002** image on the **Right View**.
 
 Go to the **Tool Box** > Expand the **Change Detection** folder.
 
+
 ![Change Detection Folder][logo26]
+
 
 Double-click **Change Detection Statistics**.
 
@@ -305,13 +310,22 @@ Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage*
 
 **Pixel Count Change Result**
 
+
 ![Change Detection pixel result][logo32]
+
+
+
+The change detection statistics result for the pixel count revealed that there were significant decreases in water bodies (i.e., **-76549**) and bare lands (i.e., **-146477**) whereas human settlement (i.e., **+223026**) experience an increase in Niagara from 1987 to 2002. 
 
 
 **Percentage Change Result**
 
 
 ![Change Detection percentage result][logo33]
+
+
+
+The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-10.09%**)  and bare lands (i.e., **-12.92%**)  experienced losses in landcover. In contrast, Human Settlement (i.e., **+12.92%**) experienced an increase in Niagara from 1987 to 2002. 
 
 
 **Area Change Result**
@@ -321,6 +335,7 @@ Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage*
 
 
 
+With regards to area (i.e., in Square meters), results from the change detection statistics  revealed  decreases in waterbodies (i.e., **-68,894,100**) and bare lands (i.e., **-131,829,300**), whereas human Settlement (i.e., **+200,723,400**) experience an increase in Niagara from 1987 to 2002. 
 
 
 **Change Detection Analysis for St. Catharines**
@@ -393,14 +408,21 @@ The St. Catharines **Change Detection Statistics** results pop-up. you can see t
 
 **Pixel Count Change Result**
 
+
 ![St. Catharines Change Detection pixel result][logo40]
 
+
+
+The change detection statistics result for the pixel count revealed that there were significant decreases in water bodies (i.e., **-2072**) and bare lands (i.e., **-1306**) whereas human settlement (i.e., **+3378**) experience an increase in St. Catharines from 1987 to 2002. 
 
 **Percentage Change Result**
 
 
 ![St. Catharines Change Detection percentage result][logo41]
 
+
+
+The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-4.73%**) and bare lands (i.e., **-2.83%**) experienced losses in landcover. In contrast, human settlement (i.e., **+3.24%**) experienced an increase in St. Catharines from 1987 to 2002. 
 
 **Area Change Result**
 
@@ -409,8 +431,9 @@ The St. Catharines **Change Detection Statistics** results pop-up. you can see t
  
  
  
- 
- 
+ With regards to area (i.e., in Square meters), results from the change detection statistics  revealed  decreases in waterbodies (i.e., **-1,864,800**) and bare lands (i.e., **-3,040,200**), whereas human Settlement (i.e., **+1,175,400**) experience an increase in St. Catharines from 1987 to 2002. 
+
+
 ### Conclusion
 
 Content
