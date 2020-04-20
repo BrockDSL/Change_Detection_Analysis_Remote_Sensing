@@ -435,12 +435,9 @@ The change detection statistics result in terms of percentage change showed that
 
 
 ### Conclusion
+This project used a combination of change detection analysis and other techniques (i.e., layer stacking, subsetting region of interest, and classification)  to identify changes in land cover in the Niagara Region from 1987 to 2002. Also, I  used these techniques to examine changes in landcover at the individual municipal level, particularly in the St. Catharines Municipality. I found out that changes in areas covered by human settlement were negatively associated with changes in areas covered by water bodies and bare lands within these 15 years. This result implied that an increase in human settlement led to a decrease in water bodies and bare lands in St. Catharines and the entire Niagara regional municipality.
 
-
-
-For my future research, I would like to re-run my analysis using dissemination areas or other units smaller than the entire municipality and St. Catharines to see if these patterns also hold. 
-
-This project identified the extent of land cover change in the Niagara Region and proposed recommendations for future action. The municipal level analysis substantiated the existence of land cover change within the region and recognized considerable factors contributing to changes in land cover from 1987 to 2002. The project findings are supported by descriptive statistical analysis and serve as a beginning to further analysis of land cover change in the Niagara Region.
+For my future research, I would like to re-run my analysis using dissemination areas or other units smaller than the entire municipality and St. Catharines to see if these patterns also hold. This project identified the extent of land cover change in the Niagara Region and proposed recommendations for future action. The municipal level analysis substantiated the existence of land cover change within the region and recognized considerable factors contributing to changes in land cover from 1987 to 2002. The project findings are supported by descriptive statistical analysis and serve as a beginning to further analysis of land cover change in the Niagara Region.
 
 
 
