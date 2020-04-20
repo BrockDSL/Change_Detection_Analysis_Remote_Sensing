@@ -24,12 +24,14 @@ Open **Envi 5.5.3** Software.
  ![Envi 5.5.3 Visualization view][logo31]
 
 
+
 Click the '**View** button on the **Menu Bar** and select **Two Vertical Views**. 
 
 Altenately hold **Alt + 2**.
 
 
  ![Two Vertical Views][logo2]
+
 
 
 > NB: This operation will generate a **Left View** and a **Right View** on the visualization area. 
@@ -41,12 +43,14 @@ Click on the **Left View** > Go to **File** > Go to the location of the download
 ![Loading of 1987 bands][logo24]
 
 
+
 Alternately you can hold **Ctrl + O**.
 
 Also select the **Right View** and repeat the same process you did for step three. Select **Band 3, Band 4, and Band 5** of your **2002 Landsat Data** and click **Open**.
 
 
 ![Loading of 2002 bands][logo25]
+
 
 
 
@@ -60,16 +64,19 @@ Click on the **Left View** > the far right you will see **Tool Box** > Below the
 ![Raster management folder showing layer stack][logo18]
 
 
+
 **Layer Stacking  Parameters** dialogue box pop-up.
 
 
 ![Layer Stack Dialogue box][logo19]
 
 
-Click on the **three dot in the box** at the right side of the **Input Raster Box** > Select all the **1987 Bands** in the **Select Input File** (i.e., **Band 3, Band 4, and Band 5**)
+
+Click on the **three dot in the box** at the right side of the **Input Raster Box** > Select all the **1987 Bands** in the **Select Input File** (i.e., **Band 3, Band 4, and Band 5**).
 
 
 ![Selection of the 1987 bands][logo20]
+
 
 
 > Hold the Control key and select the three bands and click **Ok**.
@@ -80,10 +87,12 @@ Choose your **Output Filename** as **1987 Stack** and Click **Ok**.
 ![Image of the 1987 Stack][logo21]
 
 
-Repeat the same steps you did for step 7 for the **2002 Landsat** image (i.e., **Band 3, Band 4, and Band 5**)
+
+Repeat the same steps you did for step 7 for the **2002 Landsat** image (i.e., **Band 3, Band 4, and Band 5**).
 
 
 ![Selection of the 2002 bands][logo22]
+
 
 
 Choose **Output Filename** as **2002 Stack** and click **Ok*.
@@ -107,7 +116,9 @@ Select the **Left View** > Click **File** > Select **Open** > Go to the **Change
 ![Niagara municipal boundary shapefile 1][logo1]
 
 
+
 ![Niagara municipal boundary shapefile 1 on the visualization aera][logo35]
+
 
 
 Right click on the **Municipal Boundary.shp** in the **Layer Manager** and select **Zoom to layer Extent**.
@@ -116,19 +127,23 @@ Right click on the **Municipal Boundary.shp** in the **Layer Manager** and selec
 ![Image of the Niagara municipal boundary shapefile 1][logo36]
 
 
+
 Select the **Right View** and repeat the above steps to add the **Municipal Boundary Shapefile**. However, for thsi step you would choose **Municipal Boundary (2)** folder and select **Municipal Boundary.shp** and click **Open**. 
 
 
 ![Niagara municipal boundary shapefile 2][logo37]
 
 
+
 ![Niagara municipal boundary shapefile 1 on the visualization aera][logo38]
+
 
 
 Right click on the **Municipal Boundary.shp** in the **Layer Manager** and select **Zoom to layer Extent**.
 
 
 ![Image of the Niagra municipal boundary shapefile 2][logo39]
+
 
 
 
@@ -142,10 +157,12 @@ Go to the **Search Tool Box** and search by typing **Subset** in the search box 
  ![Subset Search][logo3]
 
 
+
 **Select Input File to Subset Via ROI** dialogue box pops-up > For the **Select Input File** choose **1987 Stack** > Click **Ok**.
 
 
 ![Subset Via ROI dialogue box][logo4]
+
 
 
 **Spatial Subset Via ROI Parameters** dialogue box pops-up > Select the **Municipal Boundary.shp** (i.e., *the one at the bottom*). 
@@ -156,10 +173,12 @@ Choose **Output Filename** and save as **1987 Subset** > Click **Open** > Click 
 ![Subset Via ROI parameters dialogue box][logo5]
 
 
+
 With the exception of **1987 Subset**, **uncheck** all other layers in the **Left View** in the **Layer Manager**.
 
 
 ![1987 Subset][logo6]
+
 
 
 Repeat the same process of subsetting data for the **2002 Stack** image in the **Right View**.
@@ -177,6 +196,7 @@ Also, with the exception of 2002 **Subset**, **uncheck** all other layers in the
 
 
 
+
 **STEP FIVE : Classification**
 
 In this section I would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classify the land cover into different land uses without any input of the user).
@@ -188,6 +208,7 @@ Double-click **K-means**.
 ![Classification folder in subset][logo8]
 
 
+
 >Note:Unsupervised classification is when outcomes are based on the software analysis of an image without the user providing sample classes. The computer uses techniques to deteremine which pixels are related and groups them into classes.
 
 
@@ -196,6 +217,7 @@ Select **1987 Subset** as the **Select Input File** from the **Classification In
 
 
 ![Selection of 1987 Subset][logo9]
+
 
 
 Click **Ok**.
@@ -214,11 +236,14 @@ Result of the 1987 Unsupervised Classification
 ![image of 1987 unsupervised image][logo11]
 
 
+
 Repeat the same classification process for **2002 Subset** and name it as **Unsupervised 2002**.
 
 K-means parameter for 2002 unsupervised classification
 
+
 ![K-means parameter for 2002 Subset][logo12]
+
 
 
 Result of the 2002 Unsupervised Classification.
@@ -232,6 +257,7 @@ Image showing  results of the 1987 and 2002 Unsupervised Classifications.
 
 
 ![image of the two unsupervised image][logo14]
+
 
 
 
@@ -254,6 +280,7 @@ Go to the **Layer Manager** pane and Right click on the **Classes**[Below the K-
 ![image of edit class names and colors dialogue box][logo15]
 
 
+
 Move to class names> click on class1 and type the name Waterbody as the name in the edit box.
 Having the above table as guide, repeat the same process for the other classes.
 
@@ -264,6 +291,7 @@ Follow the same step to change the colors of the remaining classes using the tab
 
 
 ![image of  edit classes and color for the 1987 unsupervised image][logo16]
+
 
 
 Click **Ok** when you are done with the editing.
@@ -279,12 +307,14 @@ Repeat this step for the **Unsupervised 2002** image on the **Right View**.
 
 
 
+
 **STEP SEVEN : Change Detection Analysis for the Entire Niagara Region**
 
 Go to the **Tool Box** > Expand the **Change Detection** folder.
 
 
 ![Change Detection Folder][logo26]
+
 
 
 Double-click **Change Detection Statistics**.
@@ -295,10 +325,12 @@ Select **Unsupervised 1987** (i.e. *K-means 1987 Subset*) as the **Initial state
 ![Selection of initial state][logo27]
 
 
+
 Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage** image and click **Ok**.
 
 
 ![Selection of final state][logo28]
+
 
 
 **Definine Equivalent Parameter** dialogue box pops-up > Select **unclassified** for both the **Initial State Classes** and the **Final State Classes** > Click **Ok**.
@@ -307,10 +339,12 @@ Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage*
 ![Define Equivalent parameter][logo29]
 
 
+
 **Change Detection Statistics Output** dialogue box pops-up> Choose your **Output Filename** and save as **Change Detection Statistics**> Click **Ok**.
 
 
 ![Change detection statistics output dialogue box][logo30]
+
 
 
 **Change Detection Statistics** results pop-up. You can view the **percentage change, pixel count change and area change (in square metre)** for the three types of Land Cover. You can also save your result as a **Text File**. Click **File** and **Save**.
@@ -325,6 +359,7 @@ Select **Unsupervised 2002** (i.e., *K-means 2002 Subset*) as the **Final Stage*
 The change detection statistics result for the pixel count revealed that there were significant decreases in water bodies (i.e., **-76549**) and bare lands (i.e., **-146477**) whereas human settlement (i.e., **+223026**) experience an increase in Niagara from 1987 to 2002. 
 
 
+
 **Percentage Change Result**
 
 
@@ -333,6 +368,8 @@ The change detection statistics result for the pixel count revealed that there w
 
 
 The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-10.09%**)  and bare lands (i.e., **-12.92%**)  experienced losses in landcover. In contrast, Human Settlement (i.e., **+12.92%**) experienced an increase in Niagara from 1987 to 2002. 
+
+
 
 
 **Area Change Result**
@@ -345,6 +382,8 @@ The change detection statistics result in terms of percentage change showed that
 With regards to area (i.e., in Square meters), results from the change detection statistics  revealed  decreases in waterbodies (i.e., **-68,894,100**) and bare lands (i.e., **-131,829,300**), whereas human Settlement (i.e., **+200,723,400**) experience an increase in Niagara from 1987 to 2002. 
 
 
+
+
 **STEP EIGHT : Change Detection Analysis for St. Catharines**
 
 Close the previous **Change Detection Statistics results**.
@@ -353,6 +392,7 @@ Click on the **Left View** > Go to **File** > Add the **St. Catharines Boundary 
 
 
 ![St. Catharines Shapefile][logo43]
+
 
 
 Click of the **Right View** and repeat the same process.
@@ -364,7 +404,9 @@ Click of the **Right View** and repeat the same process.
 
 
 
+
 Close the **Data Manager** dialogue box **(x)**.
+
 
 
 **Generating the Study Area for St. Catharines**
@@ -388,14 +430,22 @@ Now **uncheck** the **Scheduled Municipal Structure shp.** and the **2002 Unsupe
 
 
 
+<The figure above shows images of St. Catharines that have be generated  from unsupervised images. 
+
+
 
 ![Zoom Result of the Subset for both images][logo46]
 
 
 
+<The figure above shows images of the zoomed results of the subsetted images. 
+
+
+
+
 **Performing Change Detection Statistic**
 
-Repeat Niagara's Change Detection Statistics procedures for that of St. Catharines
+Repeat Niagara's Change Detection Statistics procedures for that of St. Catharines.
 
 Select **1987 St. Catharines** as the **Initial State** image and click **Ok**.
 
@@ -422,6 +472,7 @@ The St. Catharines **Change Detection Statistics** results pop-up. you can see t
 
 The change detection statistics result for the pixel count revealed that there were significant decreases in water bodies (i.e., **-2072**) and bare lands (i.e., **-1306**) whereas human settlement (i.e., **+3378**) experience an increase in St. Catharines from 1987 to 2002. 
 
+
 **Percentage Change Result**
 
 
@@ -431,6 +482,8 @@ The change detection statistics result for the pixel count revealed that there w
 
 The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-4.73%**) and bare lands (i.e., **-2.83%**) experienced losses in landcover. In contrast, human settlement (i.e., **+3.24%**) experienced an increase in St. Catharines from 1987 to 2002. 
 
+
+
 **Area Change Result**
 
 
@@ -439,6 +492,8 @@ The change detection statistics result in terms of percentage change showed that
  
  
  With regards to area (i.e., in Square meters), results from the change detection statistics  revealed  decreases in waterbodies (i.e., **-1,864,800**) and bare lands (i.e., **-3,040,200**), whereas human Settlement (i.e., **+1,175,400**) experience an increase in St. Catharines from 1987 to 2002. 
+
+
 
 
 ### Conclusion
@@ -452,6 +507,9 @@ For my future research, I would like to re-run my analysis using dissemination a
  
  
  
+
+
+
 
 **Author**: Philip Dwomoh
 
