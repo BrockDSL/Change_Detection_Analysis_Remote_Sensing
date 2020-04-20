@@ -1,4 +1,4 @@
-![DSL Logo][dsllogo]
+![DSL Logo][dsllogo]        ![image of the two unsupervised image][logo14]
 
 
 #  Niagara's Land Cover Change Analysis: An Introduction to Change Detection Analysis
