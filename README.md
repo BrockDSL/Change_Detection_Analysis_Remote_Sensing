@@ -11,6 +11,8 @@ Furthermore, since I am staff at Brock University which is also located in St. C
 
 ### Procedures
 
+**STEP ONE : Adding of Data
+
 Download the **Change Detection Compressed Folder** from the **GitHub Link** below:
 https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
 
@@ -48,7 +50,7 @@ Also select the **Right View** and repeat the same process you did for step thre
 
 
 
-**Layer Stacking (Joining of bands)**
+**STEP TWO : Layer Stacking (Joining of bands)**
 
 For this step  we will like to join the three bands of each view to get a single image for each view.
 
@@ -90,6 +92,10 @@ Choose **Output Filename** as **2002 Stack** and click **Ok*.
 ![Image of 2002 Stack][logo23]
 
 
+
+
+**STEP THREE : Adding of Niagara Regional Boundary Shapefiles**
+
 Go to **File** and add the **Niagara Regional Municipality Boundary Shapefiles** to both **Views**. 
 
 Right-click the **Shapefiles** > Select **Zoom to Layer Extent** and **uncheck** the **Municipal Boundaries Shapefile**.
@@ -126,7 +132,7 @@ Right click on the **Municipal Boundary.shp** in the **Layer Manager** and selec
 
 
 
-**Subsetting  Stack Data from Region of Interest(ROI)**
+**STEP FOUR : Subsetting  Stack Data from Region of Interest(ROI)**
 
 Select the **Left View**.
 
@@ -171,7 +177,7 @@ Also, with the exception of 2002 **Subset**, **uncheck** all other layers in the
 
 
 
-**Classification**
+**STEP FIVE : Classification**
 
 In this section I would like to use unsupervised classificaton(i.e., classification that allows the computer or software to classify the land cover into different land uses without any input of the user).
 
@@ -229,7 +235,8 @@ Image showing  results of the 1987 and 2002 Unsupervised Classifications.
 
 
 
-*Editing of Class Names and Class Colors*
+
+**STEP SIX : Editing of Class Names and Class Colors**
 
 
 Class Name| Class Color| New Class Name| New Class Color
@@ -272,7 +279,7 @@ Repeat this step for the **Unsupervised 2002** image on the **Right View**.
 
 
 
-**Change Detection Analysis for the Entire Niagara Region**
+**STEP SEVEN : Change Detection Analysis for the Entire Niagara Region**
 
 Go to the **Tool Box** > Expand the **Change Detection** folder.
 
@@ -338,7 +345,7 @@ The change detection statistics result in terms of percentage change showed that
 With regards to area (i.e., in Square meters), results from the change detection statistics  revealed  decreases in waterbodies (i.e., **-68,894,100**) and bare lands (i.e., **-131,829,300**), whereas human Settlement (i.e., **+200,723,400**) experience an increase in Niagara from 1987 to 2002. 
 
 
-**Change Detection Analysis for St. Catharines**
+**STEP EIGHT : Change Detection Analysis for St. Catharines**
 
 Close the previous **Change Detection Statistics results**.
 
