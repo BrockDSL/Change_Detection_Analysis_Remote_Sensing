@@ -407,7 +407,7 @@ The change detection statistics result for the pixel count revealed that there w
 
 
 
-The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-10.09%**)  and bare lands (i.e., **-12.92%**) experienced losses in land cover. In contrast, Human Settlement (i.e., **+12.92%**) experienced an increase in Niagara from 1987 to 2002. 
+The change detection statistics result in terms of percentage change showed that water bodies (i.e., **-10.09%**)  and bare lands (i.e., **-12.92%**) experienced losses in land cover. In contrast, Human Settlement (i.e., **+12.69%**) experienced an increase in Niagara from 1987 to 2002. 
 
 
 
