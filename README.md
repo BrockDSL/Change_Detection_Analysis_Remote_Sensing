@@ -13,7 +13,7 @@ Furthermore, since I am staff at Brock University which is also located in St. C
 
 ### Procedures
 
-**STEP ONE : Adding of Data
+**STEP ONE : Adding of Data**
 
 Download the **Change Detection Compressed Folder** from the **GitHub Link** below:
 https://github.com/BrockDSL/Change_Detection_Analysis_Remote_Sensing
